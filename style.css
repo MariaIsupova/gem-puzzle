@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    font: 14px CENTURY GOTHIC;
+    font-weight: 600;
+}
+
+canvas {
+    display: block;
+    margin: 0 auto;
+}
+
+header{
+    display: block;
+    margin: 10px auto;
+    margin-top: 40px;
+    width: 320px;
+    background-color: rgb(255,255,255,0.7);
+}
+
+.gameSize{
+    text-align: center;
+    margin: 20px 10px 10px;
+}
+.gameInfo{
+
+    margin: 10px;
+}
+
+.newGameButton {
+    margin-left: 30px ;
+    width: 120px;
+    height: 30px;
+    border: 1px solid rgb(255, 116, 116);
+    border-radius: 6px;
+    text-decoration: none;
+    text-align: center;
+    letter-spacing: 1px;
+    background:rgb(255, 116, 116);
+    font: 14px CENTURY GOTHIC;
+    font-weight: 500;
+    letter-spacing: 1px;
+    color: white;
+}
+
+.newGameButton:hover{
+    border:1px solid teal;
+    background:teal;
+}
+
+.soundButton {
+    width: 38px;
+    height: 38px;
+}
+
+.BestResult{
+    padding: 10px;
+    display: block;
+    margin: 10px auto;
+    width: 320px;
+    background-color: rgb(255,255,255,0.7);
+    text-align: center;
+    
+}
+.title{
+    text-decoration: underline;
+}
+
+ul{
+    margin: 10px;
+    list-style-type: none;
+}
+
+
+.popup__overlay {
+    position: fixed;
+    z-index: 10000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.4);
+}
+
+
+.information {
+    background:rgb(255, 116, 116);
+    box-shadow: 1px 0px 5px #7d7d7d;
+    box-sizing: border-box;
+    height: 220px;
+    width: 300px;
+    margin: 200px auto;
+    padding: 20px;
+    color: white;
+    font: 14px CENTURY GOTHIC;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+.close {
+    margin-left: 230px;
+    margin-bottom: 5px;
+    width: 30px;
+    height: 30px;
+}
+
+
+.hidden {
+    display: none;
+}
