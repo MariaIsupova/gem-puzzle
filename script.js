@@ -412,7 +412,7 @@ BestResult.classList.add("BestResult");
 document.body.appendChild(BestResult);
 var BestResultTitle = document.createElement("div")
 BestResultTitle.classList.add("title");
-BestResultTitle.innerText = `Best resault (time)`
+BestResultTitle.innerText = `Best result (time)`
 BestResult.appendChild(BestResultTitle);
 var ul = document.createElement('ul');
 ul.setAttribute("id", "myUl");
